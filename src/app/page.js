@@ -1,7 +1,10 @@
+// "use server";
+import navbar from "@/components/";
+'use client';
 
+const MyComponent = () => {
+  return navbar;
+};
 
-const Home = () => {
-  return <h1>Coucou</h1>
-}
-
-export default Home
+export default MyComponent;
+//
